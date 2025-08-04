@@ -1,2 +1,0 @@
-# Quant
-Seong Junje Quant
