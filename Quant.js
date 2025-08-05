@@ -2,7 +2,6 @@ var basket1;               // 주식 종목들을 관리하는 Basket 객체
 var account1;
 var stock_num = 13           // 주식 종목 수
 var stock_weight = 0.95        // 자산배분시 주식 비중// 최대 주식 보유 한도. 주식 비중 (거래비용 고려 현금 5% 확보)
-var valueRatio = 0.2;
 var isFirst = true;             // 시뮬레이션 시작일에 바로 포트폴리오 신규 구성을 하기 위해 사용될 상태 변수
 var valueWeightRatio1 = 1;      // 가치가중 100%
 var valueWeightRatio2 = 0.5;    // 가치가중 50%
@@ -458,4 +457,5 @@ function onComplete() {
 }    
     
     
+
     
